@@ -1,0 +1,51 @@
+#Autosave files
+*~
+
+# Build/test output
+obj
+bin
+test-results
+
+# VS sometimes writes these for no apparent reason
+_UpgradeReport_Files
+UpgradeLog.*
+
+# Per-user data
+*.DS_Store
+*.sln.cache
+*.suo
+*.userprefs
+*.usertasks
+*.user
+*.sublime-workspace
+
+# ReSharper
+*_Resharper.*
+*.Resharper
+
+# dotCover
+*.dotCover
+
+# npm log files
+npm-debug.log
+
+# NuGet Directory
+/packages/
+!packages/repositories.config
+
+.idea
+
+# Auto generated W# Scripts
+AnalyticsDashboard/Scripts/
+
+#!packages/repositories.config
+
+.idea
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+.paket/paket.exe
+

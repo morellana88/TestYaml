@@ -1,0 +1,14 @@
+backend:
+  timeSeries: postgres
+  dataPoints: postgres
+postgres:
+  connectionString: Server=127.0.0.1 ;Port=5432;Database=analytics_dashboard;User Id=analytics_dashboard;Password=asdfg;Timeout=3;
+  poolSize: 4
+hbase:
+  host: 127.0.0.1
+  port: 9090
+  poolSize: 4
+  bufferSize: 102000
+zmq:
+  endpoint: tcp://*:8485
+  listener: 127.0.0.1:8484
